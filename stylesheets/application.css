@@ -179,33 +179,40 @@ table.list thead th a:hover { color: #000; }
 /* Issues grid styles by priorities (provided by Wynn Netherland) */
 table.list tr.issue a { color: #333; }
 
+tr.odd.priority-7, table.list tbody tr.odd.priority-7:hover { color: #900; font-weight: bold; }
+tr.odd.priority-7 { background: #ff3434; }
+tr.even.priority-7, table.list tbody tr.even.priority-7:hover { color: #900; font-weight: bold; }
+tr.even.priority-7 { background: #ff5454; }
+tr.priority-7 a, tr.priority-7:hover a { color: #900; }
+tr.odd.priority-7 td, tr.even.priority-7 td { border-color: #ffb4b4; }
+
+tr.odd.priority-6, table.list tbody tr.odd.priority-6:hover { color: #900; font-weight: bold; }
+tr.odd.priority-6 { background: #ff7474; }
+tr.even.priority-6, table.list tbody tr.even.priority-6:hover { color: #900; font-weight: bold; }
+tr.even.priority-6 { background: #ff9494; }
+tr.priority-6 a, tr.priority-6:hover a { color: #900; }
+tr.odd.priority-6 td, tr.even.priority-6 td { border-color: #ffb4b4; }
+
 tr.odd.priority-5, table.list tbody tr.odd.priority-5:hover { color: #900; font-weight: bold; }
-tr.odd.priority-5 { background: #ffc4c4; }
+tr.odd.priority-5 { background: #ffb4b4; }
 tr.even.priority-5, table.list tbody tr.even.priority-5:hover { color: #900; font-weight: bold; }
 tr.even.priority-5 { background: #ffd4d4; }
 tr.priority-5 a, tr.priority-5:hover a { color: #900; }
 tr.odd.priority-5 td, tr.even.priority-5 td { border-color: #ffb4b4; }
 
-tr.odd.priority-4, table.list tbody tr.odd.priority-4:hover { color: #900; }
-tr.odd.priority-4 { background: #ffc4c4; }
-tr.even.priority-4, table.list tbody tr.even.priority-4:hover { color: #900; }
-tr.even.priority-4 { background: #ffd4d4; }
-tr.priority-4 a { color: #900; }
-tr.odd.priority-4 td, tr.even.priority-4 td { border-color: #ffb4b4; }
+tr.odd.priority-4, table.list tbody tr.odd.priority-4:hover { color: #559; }
+tr.odd.priority-4 { background: #dfdfdf; }
+tr.even.priority-4, table.list tbody tr.even.priority-4:hover { color: #559; }
+tr.even.priority-4 { background: #ffffff; }
+tr.priority-4 a { color: #559; }
+tr.odd.priority-4 td, tr.even.priority-4 td { border-color: #b4b4b4; }
 
-tr.odd.priority-3, table.list tbody tr.odd.priority-3:hover { color: #900; }
-tr.odd.priority-3 { background: #fee; }
-tr.even.priority-3, table.list tbody tr.even.priority-3:hover { color: #900; }
-tr.even.priority-3 { background: #fff2f2; }
+tr.odd.priority-3, table.list tbody tr.odd.priority-3:hover { color: #559; }
+tr.odd.priority-3 { background: #c5c5f0; }
+tr.even.priority-3, table.list tbody tr.even.priority-3:hover { color: #559; }
+tr.even.priority-3 { background: #dfdfff; }
 tr.priority-3 a { color: #900; }
-tr.odd.priority-3 td, tr.even.priority-3 td { border-color: #fcc; }
-
-tr.odd.priority-1, table.list tbody tr.odd.priority-1:hover { color: #559; }
-tr.odd.priority-1 { background: #eaf7ff; }
-tr.even.priority-1, table.list tbody tr.even.priority-1:hover { color: #559; }
-tr.even.priority-1 { background: #f2faff; }
-tr.priority-1 a { color: #559; }
-tr.odd.priority-1 td, tr.even.priority-1 td { border-color: #add7f3; }
+tr.odd.priority-3 td, tr.even.priority-3 td { border-color: #ccc; }
 
 /* Fields */
 input[type="text"], textarea, select { padding: 2px; border: 1px solid #d7d7d7; }
